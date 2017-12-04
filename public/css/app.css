@@ -12,3 +12,9 @@ table {
 table, th, td {
     border: 1px solid black;
 }
+a {
+  color:inherit;
+  text-decoration: none;
+ }
+
+

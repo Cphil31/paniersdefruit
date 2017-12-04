@@ -24,4 +24,9 @@
   </tr>
   
 </table>
+
+<button class="positive ui right attached button" ><a href="/">Ajout Prix</a></button>
+<button class="negative ui right attached button"><a href="/">Suprimme Prix</a></button>
+<button class="positive ui right attached button" ><a href="/addQuant" >Ajout Quantité</a></button>
+<button class="negative ui right attached button"><a href="/delQuant">Suprimme Quantité</a></button>
 @endsection

@@ -13,4 +13,9 @@
 use Illuminate\Support\Facades\DB;
 
 Route::get('/','stock@index');
+Route::get('/addQuant','stock@addQuant');
+Route::get('/delQuant','stock@delQuant');
+
+
+
 
