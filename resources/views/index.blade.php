@@ -6,7 +6,18 @@
 	<link rel="stylesheet" href="../css/app.css">
 </head>
 <body>
-	<h1>Panier de fruits</h1>
+	
+
+</body>
+</html>
+
+
+@extends('layouts.layout1')
+
+@section('title', 'Page Title')
+
+@section('content')
+    <h1>Panier de fruits</h1>
 
 	<table>
   <tr>
@@ -25,6 +36,4 @@
   </tr>
   
 </table>
-
-</body>
-</html>
+@endsection
