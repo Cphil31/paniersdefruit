@@ -18,9 +18,9 @@
   </tr>
   <tr>
     <td>{{$id}}</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>{{$name}}</td>
+    <td>{{$prix}}</td>
+    <td>{{$quantité}}</td>
     <td></td>
   </tr>
   

@@ -12,6 +12,13 @@ class stock extends Controller
     public function index (){
     	$table=DB::table('stock');
 		$id= $table->select('id')->value('id');	
-        return view('index')->with('id',$id);
+		$name=$table->select('name')->value('name');
+		$prix=$table->select('prix')->value('prix');
+		$quantité=$table->select('quantité')->value('quantité');
+
+        return view('index')->with('id',$id)
+        					->with('name',$name)
+        					->with('prix',$prix)
+        					->with('quantité',$quantité);
     }
 }
