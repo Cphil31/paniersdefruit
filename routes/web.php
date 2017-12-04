@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+use Illuminate\Support\Facades\DB;
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/','stock@index');
+

@@ -25,6 +25,6 @@
   </tr>
   
 </table>
-
+{{$stock}}
 </body>
 </html>
