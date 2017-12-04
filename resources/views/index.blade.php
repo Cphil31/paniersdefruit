@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Paniers de fruits </title>
+	<link rel="stylesheet" href="../css/app.css">
 </head>
 <body>
 	<h1>Panier de fruits</h1>
@@ -17,9 +18,10 @@
   </tr>
   <tr>
     <td>Race</td>
-    <td>Jack Russell</td>
-    <td>Poodle</td>
-    <td>Streetdog</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   
 </table>
