@@ -10,7 +10,7 @@
 
 	<table>
   <tr>
-    <td>&nbsp;</td>
+    <td>id</td>
     <td>fruit</td>
     <td>Prix</td>
     <td>Quantité</td>
