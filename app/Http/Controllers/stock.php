@@ -10,7 +10,8 @@ class stock extends Controller
 
 
     public function index (){
-		$stock = DB::table('stock')->get();
-        return view('index')->with('stock',$stock);
+    	$table=DB::table('stock');
+		$id= $table->select('id')->value('id');	
+        return view('index')->with('id',$id);
     }
 }

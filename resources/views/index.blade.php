@@ -17,7 +17,7 @@
     <td>Total</td>
   </tr>
   <tr>
-    <td>Race</td>
+    <td>{{$id}}</td>
     <td></td>
     <td></td>
     <td></td>
@@ -25,6 +25,6 @@
   </tr>
   
 </table>
-{{$stock}}
+
 </body>
 </html>
